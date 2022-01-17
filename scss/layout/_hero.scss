@@ -3,7 +3,7 @@
   text-align: center;
   padding: 200px 0;
 }
-.hero-bg {
+.hero__bg {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -15,7 +15,7 @@
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;

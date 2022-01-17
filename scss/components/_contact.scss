@@ -13,7 +13,7 @@
     justify-content: center;
   }
 }
-.contact-link {
+.contact__item_link {
   align-items: center;
   display: inline-flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -23,19 +23,19 @@
 }
 }
 
-.contact-mail-icon {
+.contact__mail_icon {
   margin-right: 10px;
   width: 16px;
   height: 12px;
   fill: currentColor;
 }
-.contact-tel-icon {
+.contact__tel_icon {
   margin-right: 10px;
   width: 10px;
   height: 16px;
   fill: currentColor;
 }
-.contact-item{
+.contact__item{
   &:not(:first-child) {
   margin-left: 50px;
   }

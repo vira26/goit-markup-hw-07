@@ -1,18 +1,18 @@
-.address-map {
+.address__map {
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-white-color);
     text-decoration: none;
   }
-  .address-item {
+  .address__item {
     color: var(--primary-white-color);
   }
-  .address-space{
+  .address__space{
     &:not(:last-child) {
     margin-bottom: 9px;
   }
 }
-  .address-contact {
+  .address__contact {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);

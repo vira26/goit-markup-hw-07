@@ -1,8 +1,8 @@
-.page-nav {
+.page__nav {
   display: flex;
   align-items: center;
 }
-.nav-link {
+.nav__item_link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -16,17 +16,17 @@
     color: var(--accent-color);
   }
 }
-.nav-item{
+.nav__item{
   &:not(:last-child) {
   margin-right: 50px;
   }
 }
 .link{
-  & .current-page {
+  & .current__page {
   color: var(--accent-color);
   }
 }
-.current-page{
+.current__page{
   &::after {
   content: '';
   position: absolute;

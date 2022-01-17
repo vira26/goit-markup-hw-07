@@ -1,15 +1,15 @@
-.filter-list {
+.filter__list {
   text-decoration: none;
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
-.filter-item{
+.filter__item{
   &:not(:last-child) {
   margin-right: 8px;
   }
 }
-.filter-button {
+.filter__button {
   cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--third-title-color);
@@ -22,7 +22,7 @@
   }
 }
 
-.filter-btn {
+.filter__btn {
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
